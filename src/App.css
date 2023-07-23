@@ -19,12 +19,3 @@
     margin: 0.6rem;
 }
 
-img{
-    background-color: black;
-    background-blend-mode: color;
-}
-@media only screen and (max-width:639px) {
-    :root{
-        font-size: smaller;
-    }
-}
