@@ -21,7 +21,8 @@ function App() {
   })
   return (
     <div id='main' className='h-screen bg-gradient-to-r from-red-500 to-purple-900 flex'>
-      <div id='form-page' className='md:flex-row max-sm:w-5/6 relative h-2/3 w-1/2  flex flex-col m-auto border rounded-2xl p-5 bg-white overflow-hidden '>
+      <div id='form-page' className='md:flex-row max-sm:w-5/6 relative h-2/3 w-1/2  flex flex-col m-auto border rounded-2xl p-5 bg-white overflow-hidden shadow-2xl
+      '>
         <div id='form-image' className=' flex flex-col text-slate-800 grow basis-1/2 z-10'>
           <label id='Registartion' className='text-2xl  z-10 pb-5'>Registration Form</label>
           <img src='src\assets\landing.jpg' alt="landing" className='z-0 scale-x-150 grow absolute max-md:-translate-y-1/2 md:relative top-0' />
@@ -71,7 +72,7 @@ function App() {
               }
 
             </span>
-            <button type='submit' className='bg-gradient-to-l w-1/2 mx-auto p-2 text-white text-2xl font-normal rounded-2xl'>Submit</button>
+            <button type='submit' className='bg-gradient-to-l w-1/2 mx-auto p-2 text-white text-2xl font-normal rounded-2xl border-b-4 border-slate-800 hover:border-slate-700 active:scale-90'>Submit</button>
           </form>
         </div>
       </div>
